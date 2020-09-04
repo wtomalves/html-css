@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'fonte';
+    src: url('fontes/idroid.otf')format('opentype');
+    font-weight: nor10mal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F24405;
+    margin: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
+}
+
+header{
+    background-image: linear-gradient(to bottom,hsl(214, 96%, 48%),hsl(220, 96%, 43%));
+    color: rgba(255, 255, 255);
+    text-align:center;
+    padding: 15px;
+    margin: 10px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+
+}
+
+header > nav{
+    padding-top: 20px ;
+    text-align: left;
+
+
+}
+
+
+h2{
+    background-color: #033e8c3b;
+    font-family: 'fonte', Arial, Helvetica, sans-serif;
+
+}
+
+main{
+
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 5px;
+
+
+}
+
+nav > a{
+    color:rgb(255, 255, 255);
+    border: 1px solid #0439D9;
+    margin: 1px 1px 1px 1px;
+    padding: 3px 3px 3px 3px;
+}
+
+a:hover{
+    background-color:#07038C;
+
+}
+
+p{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+picture > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+
+}
+
+
+
+picture > p{
+    text-align: center;
+}
+
+img#homemandroid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+iframe{
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.096);
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+
+}
+
+div{
+    background-image: linear-gradient(to bottom,hsl(214, 96%, 68%),hsl(220, 96%, 48%));
+    color: rgba(255, 255, 255);
+    text-align:center;
+    padding: 15px;
+    padding-top: 20px;
+    margin: 10px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.158);
+
+
+}
+
+p > a{
+    color: white;
+}
+
+p > a#link{
+    color: #F20505;
+
+}
+
+a#link:hover{
+    background-color: #056cf24f;
+
+}
+
+p#final{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    border-radius: 2px;
+
+}
+

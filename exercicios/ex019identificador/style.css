@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, hsl(186, 81%, 89%), hsl(186, 81%, 94%), hsl(186, 81%, 94%), hsl(186, 81%, 89%))
+}
+
+h1{
+    color:hsl(101, 63%, 29%);
+}
+
+h1#principal{
+    text-align: center;
+
+}
+
+h2{
+    color:hsl(45, 89%, 34%);
+}
+
+.basico{
+        color: hsl(186, 81%, 34%);
+}
+
+.intermediario{
+                color: hsl(101, 63%, 29%);
+}
+
+.avancado{
+        color: hsl(45, 89%, 45%);
+}
